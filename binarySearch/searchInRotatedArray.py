@@ -11,6 +11,8 @@ def search(nums, target):
     # [6, 1, 2, 3, 4 ,5]
     #  L     M        R
 
+    # [7, 8, 1, 2, 3, 4, 5, 6]
+    #  L        M           R
     #
 
     # M < target AND R < target
@@ -44,4 +46,5 @@ def search(nums, target):
 # print(search([3, 5, 6, 0, 1, 2], 4))
 # print(search([3, 4, 5, 6, 1, 2], 1))
 # print(search([4, 5, 6, 7, 0, 1, 2], 0))
-print(search([4, 5, 6, 7, 8, 1, 2, 3], 8))
+# print(search([4, 5, 6, 7, 8, 1, 2, 3], 8))
+print(search([0, 1, 2, 3, 5, 6], 1))
